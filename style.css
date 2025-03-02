@@ -1,0 +1,95 @@
+ body {
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+
+ul {
+    padding: 30px;
+    list-style-type: circle;
+    margin-top: -366px;
+}
+
+
+h2 {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: #6e6e6e;
+    margin-right: 1100px;
+    margin-top: -10000000px ;
+}
+
+.audio {
+    padding-top: 1px;
+}
+
+.shopen {
+    margin-bottom: 8px;
+    padding-right: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+img {
+    
+    
+    width: 200px;
+    height: 350px;
+}
+
+.container {
+    background-color: transparent;
+    
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1500px;
+    height: 100px;
+    margin: auto;
+}
+
+input {
+    display: none;
+}
+
+label {
+    background: #223355;
+    padding: 30px 40px;
+    cursor: pointer;
+    border: 1px solid #445577;
+    border-radius: 5px;
+    margin: 25px;
+    display: inline-block;
+    font-size: large;
+}
+
+label:hover {
+    background: #335588;
+}
+
+.content {
+    display: none;
+    color: black;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 450px;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* Показываем контент при выборе вкладки */
+#shopen:checked ~ #shopen-content,
+#liszt:checked ~ #liszt-content,
+#bethoven:checked ~ #bethoven-content,
+#mozart:checked ~ #mozart-content,
+#skryabin:checked ~ #skryabin-content {
+    display: block;
+}
